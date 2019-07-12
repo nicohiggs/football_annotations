@@ -6,8 +6,6 @@ driveId: 1KaOHs6oXG5B2KqMTvWDcpVM-QHL0ud_k/preview
 
 come on
 
-{% include googleDrivePlayer.html id=page.driveId %}
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nicohiggs/football_annotations/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
