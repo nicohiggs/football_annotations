@@ -1,4 +1,6 @@
+## GIF Test
 
+![] (test_gif.gif)
 
 ## Welcome to GitHub Pages
 
