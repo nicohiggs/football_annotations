@@ -2,9 +2,11 @@
 
 For determining when a snap occurs, try to get the frame where the center has hiked the ball completely and the offensive line has just started to move. Sometimes you will get a clear view of the center which makes this pretty easy:
 
-![](test_gif.gif)
+![](gifs/clear_snap.gif.gif)
 
 Other times your view of the ball is not so clear. In these cases you just simply do your best by going off of when the offensive line starts to move:
+
+![](test_gif.gif)
 
 ## Welcome to GitHub Pages
 
