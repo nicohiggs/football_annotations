@@ -1,4 +1,4 @@
-## GIF Test
+## GIF Test 
 
 ![](test_gif.gif)
 
