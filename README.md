@@ -59,7 +59,7 @@ Enter one of the following six strings for the `play_type` field:
 * **"late"**: When the clip begins after the play has already started and you never got to see the snap (this is rare)
 * **"missing"**: Sometimes the film will go blank and have "NO FILM DETECTED" written on the screen, or sometimes a team calls a timeout and no play happens in the clip
 
-\***IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet, these plays are recorded as running plays; *however*, for the purpose of film analysis these are considered pass plays and should be annotated as such.
+\***IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.
 
 Examples of each of the above play types can be found ...
 
