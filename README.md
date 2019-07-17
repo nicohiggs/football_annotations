@@ -23,7 +23,7 @@ SL stands for sideline and is the same view you would get if you watched a game 
 
 EZ stands for endzone and is the view you get when a camera is placed in the endzone:
 
-[alt text](endcut_example.jpeg)
+![alt text](endcut_example.jpeg)
 
 These fields are already filled in for you, but make sure that you fill the `play_type` field the same for each SL-EZ pair since the play is the same no matter what the camera angle is.
 
