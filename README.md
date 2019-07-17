@@ -5,13 +5,13 @@ A .csv file already exists for each file that needs to be annotated. For example
 * **mark_in**: denotes the frame number of when the clip begins
 * **duration**: denotes how many frames long the clip is
 
-
+![alt text](csv_before.png)
 
 I need you to add two new fields:  
 * **snap**: denotes the frame number of when the ball is snapped (when the play starts)
 * **play_type**: denotes the type of play, usually if it was a run or pass play
 
-
+![alt text](csv_after.png)
 
 ## Snap field
 
