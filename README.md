@@ -35,7 +35,7 @@ For determining when the snap occurs (when the play begins), try to get the fram
 
 ![](clear_snap2.gif)
 
-Other times your view of the ball is not so clear. In these cases you just simply do your best by going off of when the offensive line starts to move:
+Other times your view of the ball is not so clear. In these cases you just simply do your best by going off of when the offensive line starts to move and when the receivers cross the line of scrimmage (when they start to cross over onto the defenses side of the field).
 
 ![](test_gif.gif)
 
