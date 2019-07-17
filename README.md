@@ -8,11 +8,13 @@ Each video has a frame counter running at the bottom of the screen which you can
 
 ![](test_gif.gif)
 
-Each videos corresponding .csv file has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exists for each video with some annotations already recorded. You can find the ones I need you to update at...
+Each video has a corresponding .csv file that has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exists for each video with some annotations already recorded. You can find the ones I need you to update at...
 
 To see which videos still need to be done, or are already done, see ... Simply pick one that has the ...
 
-# The .csv's
+## The .csv's
+
+The .csv's I need you to update are found at...
 
 A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
 * **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
