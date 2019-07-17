@@ -27,9 +27,9 @@ EZ stands for endzone and is the view you get when a camera is placed in the end
 
 These fields are already filled in for you, but make sure that you fill the `play_type` field the same for each SL-EZ pair since the play is the same no matter what the camera angle is.
 
-## Snap field
+### snap
 
-For determining when a snap occurs, try to get the frame where the center has hiked the ball completely and the offensive line has just started to move. Sometimes you will get a clear view of the center which makes this pretty easy:
+For determining when the snap occurs (when the play begins), try to get the frame where the center has hiked the ball completely through his legs and the offensive line has just started to move. Sometimes you will get a clear view of the center which makes this pretty easy:
 
 ![](clear_snap.gif)
 
