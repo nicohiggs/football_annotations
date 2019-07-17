@@ -1,6 +1,6 @@
 # The .csv's
 
-A .csv file already exists for each file that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
+A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
 * **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
 * **mark_in**: denotes the frame number of when the clip begins
 * **duration**: denotes how many frames long the clip is
