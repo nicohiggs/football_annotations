@@ -37,7 +37,9 @@ For determining when the snap occurs (when the play begins), try to get the fram
 
 Other times your view of the ball is not so clear. In these cases you just simply do your best by going off of when the offensive line starts to move and when the receivers cross the line of scrimmage (when they start to cross over onto the defenses side of the field).
 
-![](test_gif.gif)
+![](hard_to_see_snap.gif)
+
+The exact moment a ball is technically snapped is a little subjective and these videos run at about 60 fps so don't stress too much over annotating things to be exactly frame perfect. If you are unsure if you are annotating correctly just ask me and I can come do a couple with you.
 
 ## Welcome to GitHub Pages
 
