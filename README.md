@@ -68,3 +68,9 @@ For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4
 And then send me the csv with all the `mark_in`'s of the plays that you are uncertain about.
 
 Even if in one video of about 150 play clips you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in.
+
+## Software
+
+So far these annotations have been a very manual process for myself. I have been using VLC to watch the videos at 1.5-2x speed and then when I think the ball is about to be snapped I pause the video and start advancing it frame-by-frame until I think I have reached when the ball is snapped and then I jot down the frame number from the frame counter at the bottom of the video. I usually have the .csv file open in a spreadsheet program like LibreOffice Calc to update the .csv.
+
+If you have or know of some better video annotation software then do not hesitate to let me know.
