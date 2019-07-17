@@ -41,6 +41,30 @@ Other times your view of the ball is not so clear. In these cases you just simpl
 
 The exact moment a ball is technically snapped is a little subjective and these videos run at about 60 fps so don't stress too much over annotating things to be exactly frame perfect. If you are unsure if you are annotating correctly just ask me and I can come do a couple with you.
 
+### play_type
+
+Enter one of the following six strings for the `play_type` field:  
+* **run**: When the quarterback hands the ball off to the runningback
+* **pass**: When the quarterback attempts to pass the ball*
+* **play action**: When the quarterback first pretends to hand the ball off and then attempts to pass the ball*
+* **broken**: This is usually when there is a penalty *before* the ball is snapped and the play is stopped before it begins
+* **late**: When the clip begins after the play has already started and you never got to see the snap (this is rare)
+* **missing**: Sometimes the film will go blank and have "NO FILM DETECTED" written on the screen, or sometimes a team calls a timeout and no play happens in the clip
+
+\***IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet, these plays are recorded as running plays; *however*, for the purpose of film analysis these are considered pass plays and should be annotated as such.
+
+Examples of each of the above play types can be found ...
+
+For plays you label as `broken`, `late`, or `missing`, you can simply set the `snap` field to 0.
+
+## What to do if you are unsure about a play
+
+Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In this case just set `snap` to 0 and `play_type` to "nico", and then create a new csv that is `filename_uncertain_plays.csv` that contains the `mark_in` frame and I will go back and check it out myself.
+
+For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` and are thus saving your annotations in `2015 002 08-30-15 LAURIER D @ YORK O.csv`, then you would make a new csv titled `2015 002 08-30-15 LAURIER D @ YORK O_uncertain_plays.csv` that would look something like the following:
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nicohiggs/football_annotations/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
