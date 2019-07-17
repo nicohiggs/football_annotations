@@ -1,3 +1,11 @@
+# Where to find the files you will need
+
+The videos I need you to annotate are found at...
+
+Each videos corresponding .csv file has the same name but without "... \_fps.mp4" and just "... .csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exists for each video with some annotations already recorded. You can find the one I need you to update at...
+
+To see which videos still need to be done, or are already done, see ... Simply pick one that has the ...
+
 # The .csv's
 
 A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
@@ -55,11 +63,11 @@ Enter one of the following six strings for the `play_type` field:
 
 Examples of each of the above play types can be found ...
 
-For plays you label as `broken`, `late`, or `missing`, you can simply set the `snap` field to 0.
+For plays you label as "broken", "late", or "missing", you can simply set the `snap` field to `0`.
 
-## What to do if you are unsure about a play
+# What to do if you are unsure about a play
 
-Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In this case just set `snap` to 0 and `play_type` to "nico", and then create a new csv that is `filename_uncertain_plays.csv` that contains the `mark_in` frame and I will go back and check it out myself.
+Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In this case just set `snap` to `0` and `play_type` to "nico", and then create a new csv that is `filename_uncertain_plays.csv` that contains the `mark_in` frame and I will go back and check it out myself.
 
 For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` and are thus saving your annotations in `2015 002 08-30-15 LAURIER D @ YORK O.csv`, then you would make a new csv titled `2015 002 08-30-15 LAURIER D @ YORK O_uncertain_plays.csv` that would look something like the following:
 
@@ -69,7 +77,7 @@ And then send me the csv with all the `mark_in`'s of the plays that you are unce
 
 Even if in one video of about 150 play clips you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in.
 
-## Software
+# Software
 
 So far these annotations have been a very manual process for myself. I have been using VLC to watch the videos at 1.5-2x speed and then when I think the ball is about to be snapped I pause the video and start advancing it frame-by-frame until I think I have reached when the ball is snapped and then I jot down the frame number from the frame counter at the bottom of the video. I usually have the .csv file open in a spreadsheet program like LibreOffice Calc to update the .csv.
 
