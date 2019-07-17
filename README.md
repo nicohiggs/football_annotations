@@ -33,6 +33,8 @@ For determining when the snap occurs (when the play begins), try to get the fram
 
 ![](clear_snap.gif)
 
+![](clear_snap2.gif)
+
 Other times your view of the ball is not so clear. In these cases you just simply do your best by going off of when the offensive line starts to move:
 
 ![](test_gif.gif)
