@@ -19,9 +19,13 @@ You will see each play twice, back-to-back. First you will see it from the side 
 
 SL stands for sideline and is the same view you would get if you watched a game of football on t.v.:
 
+![alt text](sidecut_example.png)
+
 EZ stands for endzone and is the view you get when a camera is placed in the endzone:
 
-These fields are already filled in for you, but make sure that you fill the `play_type` field the same for each SL-EZ pair.
+[alt text](endcut_example.png)
+
+These fields are already filled in for you, but make sure that you fill the `play_type` field the same for each SL-EZ pair since the play is the same no matter what the camera angle is.
 
 ## Snap field
 
