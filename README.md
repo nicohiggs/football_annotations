@@ -1,6 +1,12 @@
 # Where to find the files you will need
 
+## The videos
+
 The videos I need you to annotate are found at...
+
+Each video has a frame counter running at the bottom of the screen which you can use to make your annotations (e.g. to mark when a play starts we will use the frame number).
+
+![](test_gif.gif)
 
 Each videos corresponding .csv file has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exists for each video with some annotations already recorded. You can find the ones I need you to update at...
 
