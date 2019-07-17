@@ -1,3 +1,18 @@
+## The .csv's
+
+A .csv file already exists for each file that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
+* **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
+* **mark_in**: denotes the frame number of when the clip begins
+* **duration**: denotes how many frames long the clip is
+
+
+
+I need you to add two new fields:  
+* **snap**: denotes the frame number of when the ball is snapped (when the play starts)
+* **play_type**: denotes the type of play, usually if it was a run or pass play
+
+
+
 ## Snap field
 
 For determining when a snap occurs, try to get the frame where the center has hiked the ball completely and the offensive line has just started to move. Sometimes you will get a clear view of the center which makes this pretty easy:
