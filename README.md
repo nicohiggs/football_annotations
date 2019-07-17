@@ -1,4 +1,4 @@
-## The .csv's
+# The .csv's
 
 A .csv file already exists for each file that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
 * **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
@@ -12,6 +12,16 @@ I need you to add two new fields:
 * **play_type**: denotes the type of play, usually if it was a run or pass play
 
 ![alt text](csv_after.png)
+
+### camera_view
+
+You will see each play twice, back-to-back. First you will see it from the side (SL) and then you will see it from the end (EZ).
+
+SL stands for sideline and is the same view you would get if you watched a game of football on t.v.:
+
+EZ stands for endzone and is the view you get when a camera is placed in the endzone:
+
+These fields are already filled in for you, but make sure that you fill the `play_type` field the same for each SL-EZ pair.
 
 ## Snap field
 
