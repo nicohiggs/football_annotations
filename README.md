@@ -59,15 +59,18 @@ The exact moment a ball is technically snapped is a little subjective and these 
 
 ### play_type
 
-Enter one of the following six strings for the `play_type` field:  
-* **"run"**: When the quarterback hands the ball off to the runningback
-* **"pass"**: When the quarterback attempts to pass the ball*
-* **"play action"**: When the quarterback first pretends to hand the ball off and then attempts to pass the ball*
-* **"broken"**: This is usually when there is a penalty *before* the ball is snapped and the play is stopped before it begins
+Enter one of the following seven strings for the `play_type` field:  
+* **"run"**: When the quarterback hands the ball off to the runningback. Sometimes it is a short toss or shovel pass instead of a hand off, and sometimes it is handed off to a receiver.
+* **"pass"**: When the quarterback attempts to pass the ball<sup>1</sup>
+* **"play action"**: When the quarterback first pretends to hand the ball off and then attempts to pass the ball<sup>1</sup>
+* **"fumbled snap"**: When the ball is dropped during the snap and it becomes a mad scramble to just jump on the ball and the play never really takes effect
+* **"broken"**: This is usually when there is a penalty *before* the ball is snapped and the play is stopped before it begins<sup>2</sup>
 * **"late"**: When the clip begins after the play has already started and you never got to see the snap (this is rare)
 * **"missing"**: Sometimes the film will go blank and have "NO FILM DETECTED" written on the screen, or sometimes a team calls a timeout and no play happens in the clip
 
-\***IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.
+<sup>1</sup>**IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.
+
+<sup>2</sup> If a penalty occurs during the play that is fine just ignore it and treat the play as normal. It is only when the penalty happens before the snap and the play is stopped that I need it labelled differently.
 
 Examples of each of the above play types can be found ...
 
