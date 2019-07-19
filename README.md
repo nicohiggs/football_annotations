@@ -2,7 +2,7 @@
 
 ## The videos
 
-The videos I need you to annotate are found at...
+The videos I need you to annotate are found at ...
 
 Each video has a frame counter running at the bottom of the screen which you can use to make your annotations (e.g. to mark when a play starts we will use the frame number).
 
