@@ -26,11 +26,11 @@ Each video has a frame counter running at the bottom of the screen which you can
 
 ![](test_gif.gif)
 
-Each video has a corresponding .csv file that has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exist for each video with some annotations already recorded. You can find them in the original_csvs folder. Download your own copy locally to edit. When you are finished, upload the new updated .csv to the updated_csvs folder with the same name, and change the `status` column on the video_listings google doc.
+Each video has a corresponding .csv file that has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`.
 
-## The .csv's
+## .csvs
 
-The .csv's I need you to update are found in the [original_csvs folder](https://drive.google.com/drive/folders/1ZxB8k8svso_VQvIKd4LWVIiTvSOqMAy0). Download the one you need, update it as I describe below, and then save/upload it to the [updated_csvs folder](https://drive.google.com/drive/folders/1RU9D5PqudHx3e_W-sLaYusQsUidmZ8cQ) with the same filename.
+The .csvs I need you to update are found in the [original_csvs folder](https://drive.google.com/drive/folders/1ZxB8k8svso_VQvIKd4LWVIiTvSOqMAy0). Download the one you need, update it as I describe below, and then save/upload it to the [updated_csvs folder](https://drive.google.com/drive/folders/1RU9D5PqudHx3e_W-sLaYusQsUidmZ8cQ) with the same filename.
 
 A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
 * **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ).
@@ -75,7 +75,7 @@ The exact moment a ball is "snapped" is a little subjective and these videos run
 
 ### play_type
 
-Examples of each of the above play types can be found in the [example_plays folder](https://drive.google.com/drive/folders/1IBApzluRm4MvAf3Hoh7Lix0MuhU9xfxq).
+Examples of each of the following play types can be found in the [example_plays folder](https://drive.google.com/drive/folders/1IBApzluRm4MvAf3Hoh7Lix0MuhU9xfxq).
 
 Enter one of the following seven strings for the `play_type` field:  
 * **"run"**: When the quarterback hands the ball off to the runningback. Sometimes it is a short toss or shovel pass instead of a hand off, and sometimes it is handed off to a receiver.
@@ -91,7 +91,7 @@ With the above said, there do exist plays that are designed for the quartback to
 
 <sup>2</sup>If a penalty occurs during the play that is fine; ignore it and treat the play as normal. It is only when the penalty happens before the snap and the play is stopped that I need it labelled differently.
 
-For plays you label as "broken", "late", or "missing", you can simply set the `snap` field to 0.
+For plays you label as "broken" or "late", you can simply set the `snap` field to 0.
 
 # What to do if you are uncertain about a play
 
@@ -99,10 +99,10 @@ Sometimes you may be uncertain about when the ball is snapped or how you should 
 
 ![alt text](uncertain_csv_example.png)
 
-Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in (i.e. set the `status` column in the video_listings google sheet to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to the updated_csvs folder so that I know which plays to double check for you).
+Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark the plays you are uncertain of and let me know so I can go back and fill them in (i.e. set the `status` column in the video_listings google sheet to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to the updated_csvs folder so that I know which plays to double check for you).
 
 # Software
 
 So far these annotations have been a very manual process for myself. I have been using VLC to watch the videos at 1.5-2x speed and then when I think the ball is about to be snapped I pause the video and start advancing it frame-by-frame until I think I have reached when the ball is snapped and then I jot down the frame number from the frame counter at the bottom of the video. I usually have the .csv file open in a spreadsheet program like LibreOffice Calc to update the .csv.
 
-If you have or know of some better video annotation software then do not hesitate to let me know. I am simply trying to use the most lightweight setup I can.
+If you have or know of some better video annotation software then do not hesitate to let me know.
