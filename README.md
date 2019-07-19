@@ -91,7 +91,7 @@ Sometimes you may be unsure about when the ball is snapped or how you should lab
 
 For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` and are thus saving your annotations in `2015 002 08-30-15 LAURIER D @ YORK O.csv`, then you would make a new csv titled `2015 002 08-30-15 LAURIER D @ YORK O_uncertain_plays.csv` that would look something like the following:
 
-![alt text](csv_uncertain.png)
+![alt text](uncertain_csv.png)
 
 Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in (i.e. set the `status` column in ... to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to ... so that I know which plays to double check for you).
 
