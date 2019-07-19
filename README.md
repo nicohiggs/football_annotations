@@ -64,9 +64,9 @@ Enter one of the following seven strings for the `play_type` field:
 * **"pass"**: When the quarterback attempts to pass the ball<sup>1</sup>
 * **"play action"**: When the quarterback first pretends to hand the ball off and then attempts to pass the ball<sup>1</sup>
 * **"fumbled snap"**: When the ball is dropped during the snap and it becomes a mad scramble to just jump on the ball and the play never really takes effect
-* **"broken"**: This is usually when there is a penalty *before* the ball is snapped and the play is stopped before it begins<sup>2</sup>
+* **"knee"**: When the qb intentionally drops one knee to the ground as soon as he gets the ball. This happens at the end of the game, or sometimes just before half time.
+* **"broken"**: This is a catch-all for when a play never really happens. The most common is when there is a penalty *before* the ball is snapped and the play is stopped<sup>2</sup>. Sometimes the film will go blank and have "NO FILM DETECTED" written on the screen, or sometimes a team calls a timeout and no play happens in the clip
 * **"late"**: When the clip begins after the play has already started and you never got to see the snap (this is rare)
-* **"missing"**: Sometimes the film will go blank and have "NO FILM DETECTED" written on the screen, or sometimes a team calls a timeout and no play happens in the clip
 
 <sup>1</sup>**IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.  
 With the above said, there do exist plays that are designed for the quartback to run the ball (e.g. qb sneak, option, qb draw), but in general when the quartback looks to pass and then takes off running we will label these as pass plays. If you are unsure then just ask me to come take a look (more on what to do if you are uncertain below).
