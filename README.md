@@ -8,7 +8,7 @@ Each video has a frame counter running at the bottom of the screen which you can
 
 ![](test_gif.gif)
 
-Each video has a corresponding .csv file that has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exists for each video with some annotations already recorded. You can find the ones I need you to update at...
+Each video has a corresponding .csv file that has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exist for each video with some annotations already recorded. You can find the ones I need you to update at...
 
 To see which videos still need to be done, or are already done, see ...
 
@@ -16,9 +16,11 @@ Check the `status` column to see which videos are available for you to annotate.
 
 ![alt text](video_listing.png)
 
+If you finish with no uncertain plays then make the status "complete", otherwise set the status to "uncertain plays" so that I know you are finished but need me to look over some of the plays (more on what to do when you are unsure of a play below).
+
 ## The .csv's
 
-The .csv's I need you to update are found at ...
+The .csv's I need you to update are found at ... Download the one you need, update it as I describe below, and then save/upload it to ...
 
 A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
 * **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
@@ -32,6 +34,8 @@ I need you to add two new fields:
 * **play_type**: denotes the type of play, usually if it was a run or pass play
 
 ![alt text](csv_after.png)
+
+When you are finished annotating a video, save and upload the new updated .csv to ... with the same filename.
 
 ### camera_view
 
@@ -83,15 +87,13 @@ For plays you label as "broken", "late", or "missing", you can simply set the `s
 
 # What to do if you are unsure about a play
 
-Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In this case just set `snap` to 0 and `play_type` to "nico", and then create a new csv that is `filename_uncertain_plays.csv` that contains the `mark_in` frame and I will go back and check it out myself.
+Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In these cases just set `snap` to 0 and `play_type` to "nico" so that when you are finished I can find which plays you were uncertain of from your newly saved/uploaded .csv.
 
 For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` and are thus saving your annotations in `2015 002 08-30-15 LAURIER D @ YORK O.csv`, then you would make a new csv titled `2015 002 08-30-15 LAURIER D @ YORK O_uncertain_plays.csv` that would look something like the following:
 
 ![alt text](csv_uncertain.png)
 
-And then send me the csv with all the `mark_in`'s of the plays that you are uncertain about.
-
-Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in.
+Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in (i.e. set the `status` column in ... to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to ... so that I know which plays to double check for you).
 
 # Software
 
