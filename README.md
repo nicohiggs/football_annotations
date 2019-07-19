@@ -89,7 +89,7 @@ For plays you label as "broken", "late", or "missing", you can simply set the `s
 
 Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In these cases just set `snap` to 0 and `play_type` to "nico" so that when you are finished I can find which plays you were uncertain of from your newly saved/uploaded .csv.
 
-![alt text](uncertain_csv.png)
+![alt text](uncertain_csv_example.png)
 
 Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in (i.e. set the `status` column in ... to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to ... so that I know which plays to double check for you).
 
