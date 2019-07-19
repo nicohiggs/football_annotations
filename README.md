@@ -18,7 +18,7 @@ Check the `status` column to see which videos are available for you to annotate.
 
 ## The .csv's
 
-The .csv's I need you to update are found at...
+The .csv's I need you to update are found at ...
 
 A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
 * **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
