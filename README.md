@@ -1,11 +1,11 @@
 # Where to find the files you will need
 
-Everything you will need is found on the shared P2IRC-3.2-Large-Data google drive in the football_annotations folder:  
-* video_listings is the google doc that maintains the list of videos that are completed or still need to be annotated
-* videos contains all the videos
-* original_csvs contains the old .csvs I need you to update
-* updated_csvs is where you need to save/upload the final updated .csv with all your new annotations
-* example_plays contains some examples of each `play_type`
+Everything you will need is found on the shared [P2IRC-3.2-Large-Data google drive](https://drive.google.com/drive/folders/1Gry1fBY-Zt3PON8am0m_ZqdEa1XxYCIr) in the [football_annotations folder](https://drive.google.com/drive/folders/1aA9OeEyU0iQU-o-ruRSbl9hS8tOyHyBX):  
+* [video_listings](https://docs.google.com/spreadsheets/d/1--J-V-IeR8Mg0sCicFUQ9nRRf2V6dGGJcpy6MKpZduk/edit#gid=0) is the google doc that maintains the list of videos that are completed or still need to be annotated.
+* [videos](https://drive.google.com/drive/folders/161gMdc67Z-LwqDaYOl8ise1zT-Kvr_h_) contains all the videos.
+* [original_csvs](https://drive.google.com/drive/folders/1ZxB8k8svso_VQvIKd4LWVIiTvSOqMAy0) contains the old .csvs I need you to update.
+* [updated_csvs](https://drive.google.com/drive/folders/1RU9D5PqudHx3e_W-sLaYusQsUidmZ8cQ) is where you need to save/upload the final updated .csv with all your new annotations.
+* [example_plays](https://drive.google.com/drive/folders/1IBApzluRm4MvAf3Hoh7Lix0MuhU9xfxq) contains some examples of each `play_type`.
 
 ## video_listings
 
