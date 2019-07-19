@@ -10,7 +10,11 @@ Each video has a frame counter running at the bottom of the screen which you can
 
 Each video has a corresponding .csv file that has the same name but without "\_fps.mp4" and just ".csv" instead. For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` the corresponding .csv is titled `2015 002 08-30-15 LAURIER D @ YORK O.csv`. The .csv files already exists for each video with some annotations already recorded. You can find the ones I need you to update at...
 
-To see which videos still need to be done, or are already done, see ... Simply pick one that has the ...
+To see which videos still need to be done, or are already done, see ...
+
+Check the `status` column to see which videos are available for you to annotate. Look for a video that has the `status` column blank, and be sure to fill it in with "in progress" and `annotator` with your name so that no one else starts to annotate the same video as you. In the example below, "example1.mp4" would be available for you to annotate.
+
+![alt text](video_listing.png)
 
 ## The .csv's
 
