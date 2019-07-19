@@ -1,25 +1,26 @@
 # Where to find the files you will need
 
 Everything you will need is found on the shared [P2IRC-3.2-Large-Data google drive](https://drive.google.com/drive/folders/1Gry1fBY-Zt3PON8am0m_ZqdEa1XxYCIr) in the [football_annotations folder](https://drive.google.com/drive/folders/1aA9OeEyU0iQU-o-ruRSbl9hS8tOyHyBX):  
-* [video_listings](https://docs.google.com/spreadsheets/d/1--J-V-IeR8Mg0sCicFUQ9nRRf2V6dGGJcpy6MKpZduk/edit#gid=0) is the google doc that maintains the list of videos that are completed or still need to be annotated.
+* [video_listings](https://docs.google.com/spreadsheets/d/1--J-V-IeR8Mg0sCicFUQ9nRRf2V6dGGJcpy6MKpZduk/edit#gid=0) is the google sheet that maintains the list of videos that are completed or still need to be annotated.
 * [videos](https://drive.google.com/drive/folders/161gMdc67Z-LwqDaYOl8ise1zT-Kvr_h_) contains all the videos.
 * [original_csvs](https://drive.google.com/drive/folders/1ZxB8k8svso_VQvIKd4LWVIiTvSOqMAy0) contains the old .csvs I need you to update.
 * [updated_csvs](https://drive.google.com/drive/folders/1RU9D5PqudHx3e_W-sLaYusQsUidmZ8cQ) is where you need to save/upload the final updated .csv with all your new annotations.
 * [example_plays](https://drive.google.com/drive/folders/1IBApzluRm4MvAf3Hoh7Lix0MuhU9xfxq) contains some examples of each `play_type`.
+* [link_to_guide](https://docs.google.com/document/d/1wDJunhYyONL2we0IU8kCV8nN6jqxqDmEBG8X3SILgLs/edit) a google doc that has a link to this page.
 
 ## video_listings
 
-To see which videos still need to be done, or are already done, see the video_listings google doc.
+To see which videos still need to be done, or are already done, see the [video_listings google sheet](https://docs.google.com/spreadsheets/d/1--J-V-IeR8Mg0sCicFUQ9nRRf2V6dGGJcpy6MKpZduk/edit#gid=0).
 
 Check the `status` column to see which videos are available for you to annotate. Look for a video that has the `status` column blank, and be sure to fill it in with "in progress", and also fill in the `annotator` column with your name, so that no one else starts to annotate the same video as you. In the example below, "example1.mp4" would be available for you to annotate.
 
 ![alt text](video_listing.png)
 
-If you finish with no uncertain plays then make the status "complete", otherwise set the status to "uncertain plays" so that I know you are finished but need me to look over some of the plays (more on what to do when you are uncertain of a play below).
+If you finish with no uncertain plays then make the status "complete", otherwise set the status to "uncertain plays" so that I know you are finished but you need me to look over some of the plays (more on what to do when you are uncertain of a play below).
 
 ## videos
 
-The videos can be found in the videos folder.
+The videos can be found in the [videos folder](https://drive.google.com/drive/folders/161gMdc67Z-LwqDaYOl8ise1zT-Kvr_h_).
 
 Each video has a frame counter running at the bottom of the screen which you can use to make your annotations (e.g. to mark when a play starts we will use the frame number).
 
@@ -29,18 +30,18 @@ Each video has a corresponding .csv file that has the same name but without "\_f
 
 ## The .csv's
 
-The .csv's I need you to update are found in the original_csvs folder. Download the one you need, update it as I describe below, and then save/upload it to the updated_csvs folder with the same filename.
+The .csv's I need you to update are found in the [original_csvs folder](https://drive.google.com/drive/folders/1ZxB8k8svso_VQvIKd4LWVIiTvSOqMAy0). Download the one you need, update it as I describe below, and then save/upload it to the [updated_csvs folder](https://drive.google.com/drive/folders/1RU9D5PqudHx3e_W-sLaYusQsUidmZ8cQ) with the same filename.
 
 A .csv file already exists for each video that needs to be annotated. For example, `2015 002 08-30-15 LAURIER D @ YORK O.csv` will already contain the fields:  
-* **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ)
-* **mark_in**: denotes the frame number of when the clip begins
-* **duration**: denotes how many frames long the clip is
+* **camera_view**: denotes if the camera is from the sideline (SL) or endzone (EZ).
+* **mark_in**: denotes the frame number of when the clip begins.
+* **duration**: denotes how many frames long the clip is.
 
 ![alt text](csv_before.png)
 
 I need you to add two new fields:  
-* **snap**: denotes the frame number of when the ball is snapped (when the play starts)
-* **play_type**: denotes the type of play, usually if it was a run or pass play
+* **snap**: denotes the frame number of when the ball is snapped (when the play starts).
+* **play_type**: denotes the type of play, usually if it was a run or pass play.
 
 ![alt text](csv_after.png)
 
@@ -74,7 +75,7 @@ The exact moment a ball is "snapped" is a little subjective and these videos run
 
 ### play_type
 
-Examples of each of the above play types can be found in the example_plays folder.
+Examples of each of the above play types can be found in the [example_plays folder](https://drive.google.com/drive/folders/1IBApzluRm4MvAf3Hoh7Lix0MuhU9xfxq).
 
 Enter one of the following seven strings for the `play_type` field:  
 * **"run"**: When the quarterback hands the ball off to the runningback. Sometimes it is a short toss or shovel pass instead of a hand off, and sometimes it is handed off to a receiver.
@@ -98,7 +99,7 @@ Sometimes you may be uncertain about when the ball is snapped or how you should 
 
 ![alt text](uncertain_csv_example.png)
 
-Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in (i.e. set the `status` column in video_listings google doc to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to the updated_csvs folder so that I know which plays to double check for you).
+Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in (i.e. set the `status` column in the video_listings google sheet to "uncertain plays" and upload your completed .csv that has uncertain plays labelled as "nico" to the updated_csvs folder so that I know which plays to double check for you).
 
 # Software
 
