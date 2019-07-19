@@ -68,17 +68,18 @@ Enter one of the following seven strings for the `play_type` field:
 * **"late"**: When the clip begins after the play has already started and you never got to see the snap (this is rare)
 * **"missing"**: Sometimes the film will go blank and have "NO FILM DETECTED" written on the screen, or sometimes a team calls a timeout and no play happens in the clip
 
-<sup>1</sup>**IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.
+<sup>1</sup>**IMPORTANT**: Sometimes a quarterback is tackled before they are able to throw the ball, other times the quartback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.  
+With the above said, there do exist plays that are designed for the quartback to run the ball (e.g. qb sneak, option, qb draw), but in general when the quartback looks to pass and then takes off running we will label these as pass plays. If you are unsure then just ask me to come take a look (more on what to do if you are uncertain below).
 
-<sup>2</sup> If a penalty occurs during the play that is fine just ignore it and treat the play as normal. It is only when the penalty happens before the snap and the play is stopped that I need it labelled differently.
+<sup>2</sup>If a penalty occurs during the play that is fine; ignore it and treat the play as normal. It is only when the penalty happens before the snap and the play is stopped that I need it labelled differently.
 
 Examples of each of the above play types can be found ...
 
-For plays you label as "broken", "late", or "missing", you can simply set the `snap` field to `0`.
+For plays you label as "broken", "late", or "missing", you can simply set the `snap` field to 0.
 
 # What to do if you are unsure about a play
 
-Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In this case just set `snap` to `0` and `play_type` to "nico", and then create a new csv that is `filename_uncertain_plays.csv` that contains the `mark_in` frame and I will go back and check it out myself.
+Sometimes you may be unsure about when the ball is snapped or how you should label a play type. Perhaps a scenario arises that I didn't cover above, or the play is hard to see, or you simply are not confident in what to put. In this case just set `snap` to 0 and `play_type` to "nico", and then create a new csv that is `filename_uncertain_plays.csv` that contains the `mark_in` frame and I will go back and check it out myself.
 
 For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4` and are thus saving your annotations in `2015 002 08-30-15 LAURIER D @ YORK O.csv`, then you would make a new csv titled `2015 002 08-30-15 LAURIER D @ YORK O_uncertain_plays.csv` that would look something like the following:
 
@@ -86,7 +87,7 @@ For example, if you are annotating `2015 002 08-30-15 LAURIER D @ YORK O_fps.mp4
 
 And then send me the csv with all the `mark_in`'s of the plays that you are uncertain about.
 
-Even if in one video of about 150 play clips you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in.
+Even if in one video you have many plays you are uncertain of that is fine. Just make sure to mark which ones and let me know so I can go back and fill them in.
 
 # Software
 
