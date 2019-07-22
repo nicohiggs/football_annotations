@@ -1,6 +1,6 @@
 # Where to find the files you will need
 
-Everything you will need is found on the shared [P2IRC-3.2-Large-Data google drive](https://drive.google.com/drive/folders/1Gry1fBY-Zt3PON8am0m_ZqdEa1XxYCIr) in the [football_annotations folder](https://drive.google.com/drive/folders/1aA9OeEyU0iQU-o-ruRSbl9hS8tOyHyBX):  
+Everything you will need is found on the shared [P2IRC-3.2-Large-Data google drive](https://drive.google.com/drive/folders/1Gry1fBY-Zt3PON8am0m_ZqdEa1XxYCIr) in the [football_annotations folder](https://drive.google.com/drive/folders/1aA9OeEyU0iQU-o-ruRSbl9hS8tOyHyBX). If you do not have access then you will need to contact William.  
 * [video_listings](https://docs.google.com/spreadsheets/d/1--J-V-IeR8Mg0sCicFUQ9nRRf2V6dGGJcpy6MKpZduk/edit#gid=0) is the google sheet that maintains the list of videos that are completed or still need to be annotated.
 * [videos](https://drive.google.com/drive/folders/161gMdc67Z-LwqDaYOl8ise1zT-Kvr_h_) contains all the videos.
 * [original_csvs](https://drive.google.com/drive/folders/1ZxB8k8svso_VQvIKd4LWVIiTvSOqMAy0) contains the old .csvs I need you to update.
