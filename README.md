@@ -87,7 +87,7 @@ Enter one of the following seven strings for the `play_type` field:
 * **"late"**: When the clip begins after the play has already started and you never got to see the snap (this is rare).
 
 <sup>1</sup>**IMPORTANT**: Sometimes the quarterback is tackled before they are able to throw the ball, other times the quarterback may take off running if there is no open receiver to throw the ball to. On an official game stats sheet these plays are recorded as running plays; *however*, for the purposes of film analysis these are considered pass plays and should be annotated as such.  
-With the above said, there do exist plays that are designed for the quartback to run the ball (e.g. qb sneak, option, qb draw), but in general when the quartback looks to pass and then takes off running we will label these as pass plays. If you are uncertain then just ask me to come take a look (more on what to do if you are uncertain below).
+With the above said, there do exist plays that are designed for the quartback to run the ball (e.g. qb sneak, option, qb draw), but in general when the quartback looks to pass and then takes off running we will label these as pass plays. If you are uncertain then mark it as uncertain so I can take a look at it or ask me (more on what to do if you are uncertain below).
 
 <sup>2</sup>If a penalty occurs during the play that is fine; ignore it and treat the play as normal. It is only when the penalty happens before the snap and the play is stopped that I need it labelled differently.
 
